@@ -147,6 +147,11 @@
                 <version>${mybatis-plus.version}</version>
             </dependency>
             <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-core</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>druid-spring-boot-starter</artifactId>
                 <version>${druid.version}</version>

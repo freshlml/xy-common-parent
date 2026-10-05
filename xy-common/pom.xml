@@ -26,16 +26,19 @@
             <artifactId>fresh-core</artifactId>
         </dependency>
 
-        <!-- mybatis-plus, 本应该在xy-mybatisplus-starter中。
-        因为xy-common依赖于mybaits-plus的枚举注解，entity注解，所以移动到xy-common -->
+        <!-- 依赖 mybaits-plus 的枚举注解，entity 注解 -->
         <dependency>
             <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <artifactId>mybatis-plus-core</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.datatype</groupId>

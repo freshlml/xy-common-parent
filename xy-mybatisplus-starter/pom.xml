@@ -25,11 +25,11 @@
             <groupId>com.fresh.xy</groupId>
             <artifactId>xy-common</artifactId>
         </dependency>
-        <!-- mybatis-plus,因为xy-common依赖于mybaits-plus的枚举注解，entity注解，所以移动到xy-common -->
-        <!--<dependency>
+        
+        <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
-        </dependency>-->
+        </dependency>
         <!-- jdbc -->
         <dependency>
             <groupId>mysql</groupId>
