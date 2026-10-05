@@ -30,6 +30,10 @@
             <groupId>org.apache.rocketmq</groupId>
             <artifactId>rocketmq-client</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+        </dependency>
         <!-- rocketmq-spring-boot-starter -->
         <!--<dependency>
             <groupId>org.apache.rocketmq</groupId>
